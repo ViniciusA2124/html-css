@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: rgba(55, 55, 158, 0.438);
+            font-family: ,Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            margin: 0px 5px 0px 5px;
+        }
+
+        main {
+            background-color: rgba(134, 47, 216, 0.418)
+        }
+        
+        .titulo1 {
+            background-color: rgba(55, 55, 158, 0.548);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .titulo1> h1 {
+            text-align: center;
+            margin: auto;
+            padding: 15px;
+        }
+
+        .menutop {
+            background-color: rgba(59, 59, 184, 0.986);
+            padding: 5px;
+        }
+        .menutop > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-right: 10px;
+        }
+        .menutop > a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        .titulos {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            background-color: rgba(139, 44, 177, 0.486);
+            margin: 5px;
+        }
+
+        .sub {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        aside {
+            background-color: rgba(137, 43, 226, 0.144);
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            
+        }
+
+        article {
+            padding: 5px;
+        }
+
+        footer {
+            margin: 0;
+            background-color: rgba(93, 28, 153, 0.185);
+            margin: px;
+            height: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header class="titulo1">
+        <h1>Meu site usando semântica</h1>
+        <nav class="menutop">
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1 class="titulos">Primeiro título</h1>
+                <h2 class="sub">Assunto 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error eaque sequi ad sint vel excepturi sed est. Accusantium corporis placeat veniam totam sunt! Quos nam aut fugiat accusamus animi minus!</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1 class="titulos">Segundo Título</h1>
+                <h2 class="sub">Assunto 2</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, fugit ex mollitia vitae animi laborum? Quam, at sed enim, animi cumque voluptatum eveniet illum ipsum sapiente, temporibus laboriosam rerum officia?</p>
+         <aside>
+            Feito no VScode
+         </aside>   
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        Criado por Vinicius dos Anjos
+    </footer>
+</body>
+</html>
