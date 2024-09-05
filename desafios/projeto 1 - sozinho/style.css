@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid' ;
+    src: url(fontes/idroid.otf);
+    format: opentype;
+}
+
+@font-face {
+    font-family: 'mocha';
+    src: url(fontes/Mocha\ Mattari\ W01\ Regular.otf);
+    format: opentype;
+}
+
+body{
+    background-color:#E8E6C3;
+    margin: 0px;
+}
+
+.geral {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+}
+
+span{
+    color: #256D45;
+    font-weight: bolder;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.cabeçalho{
+    background-image: linear-gradient(to bottom, #60CC90, #54A478, #20673F);
+    margin: 0px;
+    padding: 9px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    box-shadow: 0px 0px 150px #0000003f inset;
+ }
+
+ .tituloprincipal {
+    text-align: center;
+    font-family: 'mocha';
+ }
+
+ .textopostitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+ }
+
+ .menu {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+ .menu a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+ }
+
+ .titulo1 {
+    font-family: 'idroid';  
+    color: #256D45;
+ }
+
+ .subtitulos {
+    font-family: 'idroid';
+    margin-right: 5px;
+ }
+
+ .subtitulos h2 {
+    background-image: linear-gradient(to right,#20673f2c,#54a4780e);
+    padding: 2px;
+ }
+
+ .textos p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-indent: 18px;
+    text-align: justify;
+ }
+
+ .video {
+    background-color: #20673F;
+    padding: 13px;
+    margin: 0px -10px;
+    text-align: center;
+ }
+
+iframe {
+    height: 600px;
+    width: 770px;
+}
+
+.lista div {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+}
+
+.listadir {
+    margin-left: 180px;
+}
+
+.listadir ul {
+    padding: 5px;
+}
+
+.listadir li::before {
+    content: '✔';
+    margin: 7px;
+}
+
+
+.listaesq li:before {
+    content: '✔';
+    margin: 7px;
+}
+
+.aprender {
+    background-color: #C5EBD6;
+    border-radius: 30px;
+}
+
+.aprender h1 {
+    background-color: #2FA866;
+    color: white;
+    border-radius: 30px 30px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.textoespe p {
+    text-align: left;
+    text-indent: 12px;
+    margin-left: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    margin-top: 15px;
+    padding: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span > img {
+    width: 18px;
+    margin-left: 0.5px;
+    display: inline;
+}
+
+.linkstxt a {
+    text-decoration: none;
+    color: #1A5C38;
+}
+
+.linkstxt a:hover {
+    text-decoration: underline;
+    color:#1A5C38;
+    font-weight: bold;
+}
+
+
+
+
+
